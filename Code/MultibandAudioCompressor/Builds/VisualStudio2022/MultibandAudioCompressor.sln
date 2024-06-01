@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultibandAudioCompressor - Standalone Plugin", "MultibandAudioCompressor_StandalonePlugin.vcxproj", "{762C1776-0DDA-DC06-50F3-9ABAFB531ED6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{40639B7A-EDB4-CBF0-1A1D-7599418DC619} = {40639B7A-EDB4-CBF0-1A1D-7599418DC619}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultibandAudioCompressor - VST3", "MultibandAudioCompressor_VST3.vcxproj", "{2AB688B9-3B04-A8C0-16CC-770A99D8AB0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{40639B7A-EDB4-CBF0-1A1D-7599418DC619} = {40639B7A-EDB4-CBF0-1A1D-7599418DC619}
+		{06473E83-3E0C-0062-1522-24BB4607320F} = {06473E83-3E0C-0062-1522-24BB4607320F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultibandAudioCompressor - Shared Code", "MultibandAudioCompressor_SharedCode.vcxproj", "{40639B7A-EDB4-CBF0-1A1D-7599418DC619}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultibandAudioCompressor - VST3 Manifest Helper", "MultibandAudioCompressor_VST3ManifestHelper.vcxproj", "{06473E83-3E0C-0062-1522-24BB4607320F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB688B9-3B04-A8C0-16CC-770A99D8AB0E}.Debug|x64.ActiveCfg = Debug|x64
+		{2AB688B9-3B04-A8C0-16CC-770A99D8AB0E}.Debug|x64.Build.0 = Debug|x64
+		{2AB688B9-3B04-A8C0-16CC-770A99D8AB0E}.Release|x64.ActiveCfg = Release|x64
+		{2AB688B9-3B04-A8C0-16CC-770A99D8AB0E}.Release|x64.Build.0 = Release|x64
+		{762C1776-0DDA-DC06-50F3-9ABAFB531ED6}.Debug|x64.ActiveCfg = Debug|x64
+		{762C1776-0DDA-DC06-50F3-9ABAFB531ED6}.Debug|x64.Build.0 = Debug|x64
+		{762C1776-0DDA-DC06-50F3-9ABAFB531ED6}.Release|x64.ActiveCfg = Release|x64
+		{762C1776-0DDA-DC06-50F3-9ABAFB531ED6}.Release|x64.Build.0 = Release|x64
+		{40639B7A-EDB4-CBF0-1A1D-7599418DC619}.Debug|x64.ActiveCfg = Debug|x64
+		{40639B7A-EDB4-CBF0-1A1D-7599418DC619}.Debug|x64.Build.0 = Debug|x64
+		{40639B7A-EDB4-CBF0-1A1D-7599418DC619}.Release|x64.ActiveCfg = Release|x64
+		{40639B7A-EDB4-CBF0-1A1D-7599418DC619}.Release|x64.Build.0 = Release|x64
+		{06473E83-3E0C-0062-1522-24BB4607320F}.Debug|x64.ActiveCfg = Debug|x64
+		{06473E83-3E0C-0062-1522-24BB4607320F}.Debug|x64.Build.0 = Debug|x64
+		{06473E83-3E0C-0062-1522-24BB4607320F}.Release|x64.ActiveCfg = Release|x64
+		{06473E83-3E0C-0062-1522-24BB4607320F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
